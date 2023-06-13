@@ -1,0 +1,14 @@
+{% extends 'layout/master.html' %}
+{% block content %}
+<nav id="navbar" class="navbar">
+  <ul>
+    <li><a class="nav-link active" href="{% url 'indexpage' %}">Home</a></li>
+    <li><a class="nav-link" href="{% url 'aboutpage' %}">About</a></li>
+    <li><a class="nav-link" href="#resume">Blog</a></li>
+    <li><a class="nav-link" href="#services">History</a></li>
+    <li><a class="nav-link" href="#portfolio">Grallery</a></li>
+    <li><a class="nav-link" href="#contact">Contact</a></li>
+  </ul>
+  <i class="bi bi-list mobile-nav-toggle"></i>
+</nav><!-- .navbar -->
+{% endblock content %}
